@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+<div class="flex justify-center p-10">
+  <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+    <button onclick="search()" class="btn btn-success">Search</button>
+</div>
+    
+
+    <div id="phone_container" class="grid grid-cols-3">
+      
+    </div>
+  </main>
+
+
+
+
+
+  <!-- You can open the modal using ID.showModal() method -->
+
+<dialog id="my_modal_3" class="modal">
+  <div class="modal-box">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+    <h3 id="phone_name" class="font-bold text-lg">Hello!</h3>
+    <div id="container">
+    
+    </div>
+    <p class="py-4">Press ESC key or click on ✕ button to close</p>
+  </div>
+</dialog>
+
+
+
+
+
+  <footer>
+
+  </footer>
+
+
+
+  <script src="scrip.js"></script>
+</body>
+
+</html>
